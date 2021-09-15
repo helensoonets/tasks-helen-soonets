@@ -11,3 +11,8 @@ let about = {
 }
 console.log(birthday)
 console.log(about)
+
+const date = new Date(1984,10,10);
+console.log(date.getDate()+ '.' +date.getMonth()+ '.' + date.getFullYear())
+
+
