@@ -14,3 +14,6 @@ run file with node task2.js
 Containing function greet
 
 run file with node task3.js
+
+## task4.js
+Containing colours array
