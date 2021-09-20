@@ -1,13 +1,11 @@
 const nimi = "Helen"
-const p = "10"
-const k = "10"
-const a = "1984"
+const birthday = new Date(1984, 10, 10);
 const hobid = ["jalgrattasõit", "sisekujundus"];
-let birthday = p + "." + k + "." + a
-let about = {
+const formattedbirthday = birthday.getDate() + "." + birthday.getMonth() + "." + birthday.getFullYear()
+const info = {
     firstname: nimi, 
-    birthday: birthday,  
+    birthday: formattedbirthday,  
     hobid: hobid
 }
-console.log(birthday)
-console.log(about)
+console.log(info)
+console.log(formattedbirthday)
