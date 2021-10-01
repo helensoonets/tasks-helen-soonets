@@ -1,11 +1,11 @@
-const nimi = "Helen"
+const name = "Helen"
 const birthday = new Date(1984, 10, 10);
-const hobid = ["jalgrattasõit", "sisekujundus"];
+const hobbies = ["travelling", "interior design"];
 const formattedbirthday = birthday.getDate() + "." + birthday.getMonth() + "." + birthday.getFullYear()
 const info = {
-    firstname: nimi, 
+    firstname: name, 
     birthday: formattedbirthday,  
-    hobid: hobid
+    hobbies: hobbies
 }
 console.log(info)
 console.log(formattedbirthday)

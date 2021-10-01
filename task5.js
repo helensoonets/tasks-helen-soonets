@@ -2,8 +2,6 @@ let str = "";
 function checkstring(str) {
     if(str) {
         return true;
-    } else if(str=== ""){
-        return false;
     }else{
         return false;
     }

@@ -1,13 +1,25 @@
-const colours = ["Red", "Green", "White", "Black"]
-const s = colours.toString();
-console.log(s)
-const i = colours.join(", ")
-console.log (i)
+let colours = ["Red", "Green", "White", "Black"]
+ let a = ""
+ let b = ""
+ let c = ""
 
-const j = colours.join(" + ")
-console.log (j)
+ for (let i=0; i < colours.length; i++) {
+    const ending = i + 1 === colours.length
+    if (ending) {
+        a += colours[i] + "."
+    } else {
+        a += colours[i] + "," 
+    }
+}
+    console.log(a)
 
-
-//output: Red,Green,White,Black
-//output: Red, Green, White, Black
-//output: Red + Green + White + Black
+    for (let i=0; i < colours.length; i++) {
+        b += colours[i]+","
+    }
+        console.log(b)
+    
+        for (let i=0; i < colours.length; i++) {
+            c += colours[i]+"+"
+        }
+            console.log(c)
+        
